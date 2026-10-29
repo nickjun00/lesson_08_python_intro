@@ -4,7 +4,7 @@ import coolify as cl
 class TestCoolify(unittest.TestCase):
     def test_name(self):
         name = "kev"
-        self.assertTrue(cl.coolify(name) == "kev is cool")
+        self.assertTrue(cl.coolify(name) == "test kev is cool")
         self.assertFalse(cl.coolify(name) == "kev")
 
 if __name__ == '__main__':
